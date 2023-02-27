@@ -1,0 +1,135 @@
+ @media screen and( max-width: 1800px ){
+    .nav-toggle{
+display: block;
+margin-right: 20px;
+    }
+    
+
+} 
+
+/*@media screen and( max-width: 800px ){
+
+    .nav-toggle{
+        display: block;
+        margin-left: 20px;
+    }
+    .linkji{
+        display: none;
+    }
+    
+    .nav-toggle{
+        display:block;
+    }*/
+@media screen and (min-width: 991px) and (max-width: 1600px) {
+    .nav-toggle{
+     display: none;
+    }
+    
+    .nav-toggle{
+        display: none;
+    }
+
+
+
+  }
+  @media screen and (min-width: 400px) and (max-width:800px){
+  .linkji{
+    position: absolute;
+    background:linear-gradient(to right, #000000 , #4b0e56);
+    left:-100%;
+    top:100%;
+    width:100%;
+    padding-block:20px;
+    transition:0.2s ease-in-out;
+}
+.linkji.active{
+    left:0;
+}
+.linkji ul{
+    flex-direction:column;
+}
+.uoo img{
+    width: 200px;
+}
+.nav{
+    overflow: initial;
+}
+.head{
+    flex-direction: column-reverse;
+}
+.save{
+    max-width: 100vw;
+    text-align: center;
+   }
+   .sign{
+    max-width: 100vw;
+   }
+   .mdq{
+    max-width:80vw;
+    margin-left: 90px;
+
+   }
+   .macha{
+    gap: 40px;
+    margin: 0;
+   }
+   .log{
+    width: 100%;
+   }
+   .company{
+    margin-left: 80px;
+   }
+   .qop{
+    flex-direction: column-reverse;
+   }
+   .coi{
+    flex-direction: column;
+   }
+
+   .io{
+    max-width: 90vw;
+    text-align: center;
+   }
+   .hogi{
+    flex-direction: column;
+    text-align:center;
+    gap:0px;
+    align-items: stretch;
+   }
+   .one{
+    gap:10px;
+    margin-left:30px;
+   }
+   .pad{
+      padding:10px*;
+   }
+   .macha img{
+           width: 100px;
+   }
+
+   .lio{
+    margin-top:10px;
+    align-items: center;
+    gap:30px;
+    text-align: center;
+    margin-left:  -30px;
+}
+  }
+  @media screen and (min-width: 1px) and (max-width:469px){
+     h1{
+        font-size: 2rem;
+    }
+    .right{
+        font-size:1.5rem;
+    }
+    p{
+        font-size:1rem;
+    }
+    .left img{
+        max-width: 100%;
+    }
+    .ip img{
+           max-width: 100%;
+    }
+    
+  }
